@@ -6,7 +6,7 @@ var finalScore = 0;
 //random target number 19-120
 var targetNumber = Math.floor(Math.random() * 120 + 19);
 
-$(".target-number").Html(targetNumber)
+//$(".target-number").Html(targetNumber)
 
 console.log ("target number is " + targetNumber)
 
@@ -37,10 +37,10 @@ var restart = function () {
 
 //click buttons
 
-$(document).ready(function(){
+jquery(document).ready(function(){
 
     $(".crystal1").click(function(){
-        finalScore = finalScore + crystal1
+        console.log(finalScore = finalScore + crystal1)
     })
 
 })
