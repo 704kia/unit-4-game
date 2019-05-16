@@ -4,7 +4,9 @@ var lose = 0;
 var finalScore = 0;
 
 //random target number 19-120
-var targetNumber = Math.floor(Math.random() * 120 + 19)
+var targetNumber = Math.floor(Math.random() * 120 + 19);
+
+$(".target-number").Html(targetNumber)
 
 console.log ("target number is " + targetNumber)
 
@@ -33,7 +35,15 @@ var restart = function () {
     var crystal4 = Math.floor(Math.random() * 12 + 1)
 }
 
+//click buttons
 
+$(document).ready(function(){
+
+    $(".crystal1").click(function(){
+        finalScore = finalScore + crystal1
+    })
+
+})
 
 
 
