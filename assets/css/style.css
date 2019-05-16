@@ -1,6 +1,11 @@
 body {
+    background-image: url(../images/back.jpg)
+}
+
+.title {
     background-color: teal;
     font-family: 'Pompiere', cursive;
+    box-sizing: content-box
 }
 
 h1 {

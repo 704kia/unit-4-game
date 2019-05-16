@@ -37,10 +37,23 @@ var restart = function () {
 
 //click buttons
 
-jquery(document).ready(function(){
+$(document).ready(function(){
 
     $(".crystal1").click(function(){
+        
         console.log(finalScore = finalScore + crystal1)
+    })
+
+    $(".crystal2").click(function(){
+        console.log(finalScore = finalScore + crystal2)
+    })
+
+    $(".crystal3").click(function(){
+        console.log(finalScore = finalScore + crystal3)
+    })
+
+    $(".crystal4").click(function(){
+        console.log(finalScore = finalScore + crystal4)
     })
 
 })
