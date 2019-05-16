@@ -35,6 +35,34 @@ var restart = function () {
     var crystal4 = Math.floor(Math.random() * 12 + 1)
 }
 
+//write win/loss/score
+
+var updateScore = function() {
+    $(".totalScoreNumber").empty();
+    $(".totalScoreNumber").append(finalScore)
+}
+
+
+//Win/Lose statements
+var WinLose = function () {
+    if(finalScore === targetNumber){
+    alert("You Win!");
+    wins = wins + 1;
+    restart();
+}
+
+else if (finalScore > targetNumber) {
+    alert("You Lose!");
+    lose = lose + 1;
+    restart ()
+}
+
+}
+
+
+
+
+
 //click buttons
 
 $(document).ready(function(){
