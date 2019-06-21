@@ -21,3 +21,4 @@ Each time the game starts, the game will change the values of each crystal and t
 * Bootstrap
 * JS
 * JQ
+* Google Fonts
